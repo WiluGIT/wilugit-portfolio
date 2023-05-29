@@ -27,7 +27,7 @@ const ExperienceCard = (experience: ExperienceCardPropType) => (
                 <img
                     src={experience.icon}
                     alt={experience.company_name}
-                    className='w-[60%] h-[60%] object-contain'
+                    className='w-[70%] h-[70%] object-contain'
                 />
             </div>
         }
@@ -52,9 +52,9 @@ const ExperienceCard = (experience: ExperienceCardPropType) => (
 const Experience = () => {
     return (
         <>
-            <motion.div variants={textVariant(0)}>
+            <motion.div variants={textVariant(0.01)}>
                 <p className={styles.sectionSubText}>Where I had been working so far</p>
-                <h2 className={styles.sectionHeadText}>Work Experience</h2>
+                <h2 className={styles.sectionHeadText}>Work Experience & Education</h2>
             </motion.div>
 
             <div className='mt-20 flex flex-col'>

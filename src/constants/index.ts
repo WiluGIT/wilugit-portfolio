@@ -1,28 +1,10 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
   github,
   linkedin,
   az104,
@@ -36,11 +18,11 @@ import {
   postgre,
   angular,
   vue,
-  sass,
-  kubernetes,
-  rest,
-  soap,
   azure,
+  xcode,
+  workai,
+  ttms,
+  politechnika,
 } from "../assets";
 import { ExperienceCardPropType } from "../components/Experience";
 
@@ -56,25 +38,6 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
-  },
-];
-
-const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -137,125 +100,107 @@ const technologies = [
   },
   {
     name: "Kubernetes",
-    icon: kubernetes,
+    icon: "placeholder",
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
   {
     name: "REST API",
-    icon: rest,
+    icon: "placeholder",
   },
   {
     name: "SOAP",
-    icon: soap,
+    icon: "placeholder",
   },
   {
     name: "git",
-    icon: git,
+    icon: "placeholder",
   },
   {
     name: "Sass",
-    icon: sass,
+    icon: "placeholder",
   },
   {
     name: "Tailwind CSS",
-    icon: tailwind,
+    icon: "placeholder",
   },
   {
     name: "Bootstrap",
-    icon: tailwind,
+    icon: "placeholder",
   },
   {
     name: "MUI",
-    icon: tailwind,
+    icon: "tailwind",
   },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
 ];
 
 const experiences: ExperienceCardPropType[] = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Full-stack .NET Developer",
+    company_name: "X-Code",
+    icon: xcode,
+    iconBg: "#ffffff",
+    date: "July 2020 - October 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Working with: C#, JavaScript, TypeScript, SQL, MSSQL, RabbitMQ, SOAP, Microsoft Dynamics, ODATA, TeamCity.",
+      "Maintenance of existing system, developing new functionalities and bug fixing.",
+      "Collaborating with cross-functional teams including testers, business analyst, product managers, and other developers to create high-quality products.",
+      "Implementing and integration with SOAP web services.",
+      "Contact with SAP client.",
+      "Maintenance of on-premise production software.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Bialystok University of Technology",
+    company_name: "Faculty: Computer Science",
+    icon: politechnika,
+    iconBg: "#ffffff",
+    date: "2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Specialty: Software engineering",
+      "Bachelor of Engineering",
+      "Grade: 5"
+    ],
+  },
+  {
+    title: "Full-stack .NET Developer",
+    company_name: "workai",
+    icon: workai,
+    iconBg: "#ffce33",
+    date: "October 2021 - September 2022",
+    points: [
+      "Working with: C#, JavaScript, TypeScript, AngularJS, Vue.js, jQuery, ASP.NET Core MVC, Entity Framework, REST API, MSSQL, Hangfire, Orchard Core, ODATA, Azure.",
+      "Maintenance of existing system, developing new functionalities and bug fixing.",
+      "Collaborating with cross-functional teams including testers, designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Implementing and maintaining REST API microservices.",
+      "Maintenance of Azure cloud production software.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Bialystok University of Technology",
+    company_name: "Faculty: Computer Science",
+    icon: politechnika,
+    iconBg: "#ffffff",
+    date: "2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Specialty: Intelligent web technologies",
+      "Master of Engineering",
+      "Grade: 6"
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Full-stack .NET Developer",
+    company_name: "Transition Technologies MS",
+    icon: ttms,
+    iconBg: "#0f0f0f",
+    date: "October 2022 - now",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Working with: C#, JavaScript, React, jQuery, ASP.NET Core MVC, Entity Framework, REST API, PostgreSQL, Docker, Azure.",
+      "Maintenance of existing system, developing new functionalities and bug fixing.",
+      "Collaborating with cross-functional teams including testers, product managers, and other developers to create high-quality products.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
@@ -278,7 +223,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: "",
     source_code_link: "https://github.com/",
   },
   {
@@ -299,7 +244,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: "",
     source_code_link: "https://github.com/",
   },
   {
@@ -320,7 +265,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: "",
     source_code_link: "https://github.com/",
   },
 ];
@@ -361,4 +306,4 @@ const certificates = [
   }
 ]
 
-export { certificates, technologies, experiences, testimonials, projects, socialIcons };
+export { certificates, technologies, experiences, projects, socialIcons };
