@@ -1,15 +1,13 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { github, linkedin, wolf } from "../assets";
-import { Tilt } from 'react-tilt';
-import { fadeIn } from '../utils/motion';
+import { wolf } from "../assets";
 import { SocialIcon } from '.';
 import { socialIcons } from '../constants';
 
 const Hero = () => {
     return (
         <section className='relative w-full h-screen mx-auto flex justify-center'>
-            <div className={`${styles.paddingX} absolute top-[120px] max-w-7xl mx-auto flex flex-col justify-center items-center gap-5`}>
+            <div className={`${styles.paddingX} absolute top-[120px] max-w-7xl mx-auto flex flex-wrap justify-center items-center gap-5 lg:flex-nowrap`}>
                 <div className='flex justify-start items-start gap-5'>
                     <div className='flex flex-col justify-center items-center mt-5'>
                         <div className='w-5 h-5 rounded-full bg-[#915eff]'></div>
@@ -27,7 +25,7 @@ const Hero = () => {
                         ))}
                     </div>
                 </div>
-                <img src={wolf} alt={'test'} className="w-max h-max object-contain" />
+                <img src={wolf} alt={'test'} className="w-auto h-auto object-contain" />
             </div>
 
             <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
