@@ -29,6 +29,18 @@ import {
   az900,
   pl400,
   ms70480,
+  csharp,
+  dotnet,
+  sql,
+  sqlserver,
+  postgre,
+  angular,
+  vue,
+  sass,
+  kubernetes,
+  rest,
+  soap,
+  azure,
 } from "../assets";
 import { ExperienceCardPropType } from "../components/Experience";
 
@@ -68,6 +80,26 @@ const services = [
 
 const technologies = [
   {
+    name: "C#",
+    icon: csharp,
+  },
+  {
+    name: ".NET Core",
+    icon: dotnet,
+  },
+  {
+    name: "SQL",
+    icon: sql,
+  },
+  {
+    name: "SQL Server",
+    icon: sqlserver,
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgre,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -84,41 +116,65 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "React.js",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Angular",
+    icon: angular,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Vue",
+    icon: vue,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Azure",
+    icon: azure,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "docker",
+    icon: docker,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Kubernetes",
+    icon: kubernetes,
+  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
+  {
+    name: "REST API",
+    icon: rest,
+  },
+  {
+    name: "SOAP",
+    icon: soap,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Sass",
+    icon: sass,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
+  {
+    name: "Bootstrap",
+    icon: tailwind,
+  },
+  {
+    name: "MUI",
+    icon: tailwind,
+  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
 ];
 
 const experiences: ExperienceCardPropType[] = [

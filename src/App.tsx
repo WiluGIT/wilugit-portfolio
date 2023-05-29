@@ -13,11 +13,11 @@ function App() {
           <Navbar />
           <div className='relative'>
             <Hero />
-            {/* <Tech /> */}
             <StarsCanvas />
           </div>
         </div>
         <About />
+        <Tech />
         <Experience />
         <Works />
         <div className='relative z-0'>

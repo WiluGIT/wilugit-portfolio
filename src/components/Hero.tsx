@@ -23,7 +23,7 @@ const Hero = () => {
                             Full-stack .NET Developer
                         </p>
                         {socialIcons.map((el, index) => (
-                            <SocialIcon icon={el.icon} title={el.title} link={el.link} />
+                            <SocialIcon key={index} icon={el.icon} title={el.title} link={el.link} />
                         ))}
                     </div>
                 </div>
