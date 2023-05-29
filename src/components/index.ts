@@ -7,6 +7,7 @@ import Works from "./Works";
 import Contact from "./Contact";
 import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
 import CanvasLoader from "./CanvasLoader";
+import SocialIcon from "./SocialIcon";
 
 
 export {
@@ -21,5 +22,6 @@ export {
     EarthCanvas,
     BallCanvas,
     ComputersCanvas,
-    StarsCanvas
+    StarsCanvas,
+    SocialIcon
 };

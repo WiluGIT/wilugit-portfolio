@@ -23,6 +23,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  github,
+  linkedin,
+  az104,
+  az900,
+  pl400,
+  ms70480,
 } from "../assets";
 import { ExperienceCardPropType } from "../components/Experience";
 
@@ -263,4 +269,40 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const socialIcons = [
+  {
+    icon: linkedin,
+    title: 'LinkedIn',
+    link: 'https://pl.linkedin.com/in/konrad-wilczek-9b100a208'
+  },
+  {
+    icon: github,
+    title: 'GitHub',
+    link: 'https://github.com/WiluGIT'
+  },
+]
+
+const certificates = [
+  {
+    title: 'AZ-104 Microsoft Certified:',
+    subtitle: 'Azure Administrator Associate',
+    icon: az104,
+  },
+  {
+    title: 'AZ-900 Microsoft Certified:',
+    subtitle: 'Azure Fundamentals',
+    icon: az900,
+  },
+  {
+    title: 'PL-400 Microsoft Certified:',
+    subtitle: 'Power Platform Developer Associate',
+    icon: pl400,
+  },
+  {
+    title: 'MS 70-480 Microsoft Certified:',
+    subtitle: 'Programming in HTML5 with JavaScript and CSS3',
+    icon: ms70480,
+  }
+]
+
+export { certificates, technologies, experiences, testimonials, projects, socialIcons };
