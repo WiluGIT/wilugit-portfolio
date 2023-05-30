@@ -28,7 +28,7 @@ type GLTFResult = GLTF & {
 }
 
 export default function Model(props: JSX.IntrinsicElements['group']) {
-  const { nodes, materials } = useGLTF('/mac-draco.glb') as GLTFResult
+  const { nodes, materials } = useGLTF('./mac-draco.glb') as GLTFResult
   return (
     <group {...props} dispose={null}>
       <group position={[0.002, -0.038, 0.414]} rotation={[0.014, 0, 0]}>
