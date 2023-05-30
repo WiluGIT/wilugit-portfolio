@@ -1,10 +1,10 @@
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { Hero, About, Experience, Tech, Works, Navbar, Contact } from './components';
 import { StarsCanvas } from './components/canvas';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter >
       <div className='relative z-0 bg-primary background-gradient'>
         <div className='bg-cover bg-no-repeat bg-center'>
           <Navbar />
@@ -21,7 +21,7 @@ function App() {
           <Contact />
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter >
   )
 }
 

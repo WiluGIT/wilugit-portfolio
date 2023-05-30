@@ -7,6 +7,10 @@ import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 import { TabletCanvas } from './canvas';
 
+const serviceId = import.meta.env.VITE_SERVICE_ID;
+const templateId = import.meta.env.VITE_TEMPLATE_ID;
+const toMail = import.meta.env.VITE_TO_MAIL;
+const publicKey = import.meta.env.VITE_PUBLIC_KEY;
 
 const Contact = () => {
     const formRef = useRef<HTMLFormElement>(null!);
@@ -27,18 +31,16 @@ const Contact = () => {
         e.preventDefault();
         setLoading(true);
         emailjs.send(
-            'service_6jbw3ig',
-            'template_q4wcquf',
+            serviceId,
+            templateId,
             {
                 from_name: form.name,
                 to_name: 'Wilczek Dev',
                 from_email: form.email,
-                to_email: 'xatinot890@goflipa.com',
-                //to_email: 'mykozakmail@gmail.com',
+                to_email: toMail,
                 message: form.message,
-
             },
-            'hZ8QwAVmTtcaE6z4c'
+            publicKey
         ).then(() => {
             setLoading(false);
             alert("Email has been send successfully");
@@ -62,7 +64,6 @@ const Contact = () => {
             >
                 <p className={styles.sectionSubText}>Get in touch</p>
                 <h3 className={styles.sectionHeadText}>Contact</h3>
-
                 <form
                     ref={formRef}
                     onSubmit={handleSubmit}

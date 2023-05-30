@@ -8,10 +8,9 @@ const Hero = () => {
     return (
         <section className='relative w-full h-screen mx-auto flex justify-center'>
             <div className={`${styles.paddingX} absolute top-[120px] max-w-7xl mx-auto flex flex-wrap justify-center items-center gap-5 lg:flex-nowrap`}>
-                <div className='flex justify-start items-start gap-5'>
-                    <div className='flex flex-col justify-center items-center mt-5'>
-                        <div className='w-5 h-5 rounded-full bg-[#915eff]'></div>
-                        <div className='w-1 sm:h-80 h-40 violet-gradient'></div>
+                <div className='flex justify-start gap-2'>
+                    <div className='flex items-end mb-5'>
+                        <div className='w-1 sm:h-80 h-60 rounded-full violet-gradient-reverse'></div>
                     </div>
                     <div className='flex flex-col gap-5 ml-5'>
                         <h1 className={`${styles.heroHeadText} violet-text-gradient `}>
@@ -23,6 +22,9 @@ const Hero = () => {
                         {socialIcons.map((el, index) => (
                             <SocialIcon key={index} icon={el.icon} title={el.title} link={el.link} />
                         ))}
+                        <div className='flex justify-start items-center mt-5'>
+                            <div className='h-1 sm:w-80 w-60 rounded-full violet-gradient-reverse'></div>
+                        </div>
                     </div>
                 </div>
                 <img src={wolf} alt={'test'} className="w-auto h-auto object-contain" />
