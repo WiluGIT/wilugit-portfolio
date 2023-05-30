@@ -23,6 +23,8 @@ import {
   workai,
   ttms,
   politechnika,
+  portfolio,
+  checkflix,
 } from "../assets";
 import { ExperienceCardPropType } from "../components/Experience";
 
@@ -34,6 +36,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -206,68 +212,80 @@ const experiences: ExperienceCardPropType[] = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Wilczek DEV portfolio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "SPA developer portfolio.",
     tags: [
       {
-        name: "react",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "Three.js",
+        color: "green-text-gradient",
+      },
     ],
-    image: "",
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/WiluGIT/wilugit-portfolio",
   },
   {
-    name: "Job IT",
+    name: "Checkflix",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that aggregates streaming platform offers. It enables user to search, filter and mange cinematic productions. It also provides functionality of notification and user-following.",
     tags: [
       {
-        name: "react",
+        name: ".NET Core",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Rest API",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "EF Core",
         color: "pink-text-gradient",
       },
-    ],
-    image: "",
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
       {
-        name: "nextjs",
+        name: "SQL Server",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "IdentityServer",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Angular",
         color: "pink-text-gradient",
       },
     ],
-    image: "",
-    source_code_link: "https://github.com/",
+    image: checkflix,
+    source_code_link: "https://github.com/WiluGIT/Checkflix",
   },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: "",
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 const socialIcons = [

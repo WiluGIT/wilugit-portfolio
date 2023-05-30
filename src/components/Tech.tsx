@@ -11,7 +11,7 @@ const Tech = () => {
                     <BallCanvas icon={technology.icon} />
                 </div>
             ))}
-            <span>
+            <span className='text-center'>
                 {technologies.slice(14).map(function (elem) {
                     return elem.name;
                 }).join(", ")}...

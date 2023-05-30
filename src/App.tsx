@@ -1,5 +1,6 @@
 import { BrowserRouter } from 'react-router-dom';
-import { Hero, About, Experience, Tech, Works, Navbar, Contact, StarsCanvas } from './components';
+import { Hero, About, Experience, Tech, Works, Navbar, Contact } from './components';
+import { StarsCanvas } from './components/canvas';
 
 function App() {
   return (

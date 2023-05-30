@@ -5,7 +5,6 @@ import Experience from "./Experience";
 import Tech from "./Tech";
 import Works from "./Works";
 import Contact from "./Contact";
-import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
 import CanvasLoader from "./CanvasLoader";
 import SocialIcon from "./SocialIcon";
 
@@ -19,9 +18,5 @@ export {
     Works,
     Contact,
     CanvasLoader,
-    EarthCanvas,
-    BallCanvas,
-    ComputersCanvas,
-    StarsCanvas,
     SocialIcon
 };

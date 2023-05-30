@@ -32,7 +32,12 @@ import az104 from './AZ-104.png';
 import pl400 from './PL-400.png';
 import ms70480 from './MS-70480.png';
 
+import portfolio from './projects/portfolio.png';
+import checkflix from './projects/checkflix.png';
+
 export {
+  checkflix,
+  portfolio,
   politechnika,
   workai,
   xcode,
