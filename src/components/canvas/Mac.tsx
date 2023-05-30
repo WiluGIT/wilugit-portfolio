@@ -48,4 +48,4 @@ export default function Model(props: JSX.IntrinsicElements['group']) {
   )
 }
 
-useGLTF.preload('/mac-draco.glb')
+useGLTF.preload('./mac-draco.glb')
