@@ -1,6 +1,8 @@
 import { HashRouter } from 'react-router-dom';
 import { Hero, About, Experience, Tech, Works, Navbar, Contact } from './components';
 import { StarsCanvas } from './components/canvas';
+import { Loader } from '@react-three/drei';
+import { LoaderStyles } from './constants';
 
 function App() {
   return (
@@ -21,6 +23,12 @@ function App() {
           <Contact />
         </div>
       </div>
+      <Loader
+        containerStyles={LoaderStyles.container}
+        barStyles={LoaderStyles.bar}
+        dataStyles={LoaderStyles.data}
+        dataInterpolation={(p) => `Loading { Wilczek Dev }; ${p.toFixed(2)}`}
+      />
     </HashRouter >
   )
 }

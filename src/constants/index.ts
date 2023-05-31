@@ -324,4 +324,20 @@ const certificates = [
   }
 ]
 
-export { certificates, technologies, experiences, projects, socialIcons };
+const LoaderStyles = {
+  container: {
+    background: 'linear-gradient(270deg, #2f122e, #020016)',
+    fontSize: '30px',
+  },
+  bar: {
+    background: 'linear-gradient(270deg, #770bed, #f5af19)',
+    height: 6,
+  },
+  data: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  }
+}
+
+export { certificates, technologies, experiences, projects, socialIcons, LoaderStyles };
