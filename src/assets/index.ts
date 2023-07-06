@@ -34,10 +34,12 @@ import ms70480 from './MS-70480.png';
 
 import portfolio from './projects/portfolio.png';
 import checkflix from './projects/checkflix.png';
+import checkflixApp from './projects/checkflixApp.png';
 
 export {
   checkflix,
   portfolio,
+  checkflixApp,
   politechnika,
   workai,
   xcode,

@@ -110,13 +110,6 @@ const Contact = () => {
                     </button>
                 </form>
             </motion.div>
-
-            <motion.div
-                variants={slideIn('right', 'tween', 0.2, 1)}
-                className='xl:h-auto md:h-[550px] h-[350px] xl:w-[45%]'
-            >
-                <TabletCanvas />
-            </motion.div>
         </div>
     );
 }

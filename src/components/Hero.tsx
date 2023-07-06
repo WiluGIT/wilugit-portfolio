@@ -22,7 +22,7 @@ const Hero = () => {
                         {socialIcons.map((el, index) => (
                             <SocialIcon key={index} icon={el.icon} title={el.title} link={el.link} />
                         ))}
-                        <div className='flex justify-start items-center mt-5'>
+                        <div className='lg:flex justify-start items-center mt-5 hidden'>
                             <div className='h-1 sm:w-80 w-60 rounded-full violet-gradient-reverse'></div>
                         </div>
                     </div>

@@ -25,6 +25,7 @@ import {
   politechnika,
   portfolio,
   checkflix,
+  checkflixApp
 } from "../assets";
 import { ExperienceCardPropType } from "../components/Experience";
 
@@ -212,6 +213,51 @@ const experiences: ExperienceCardPropType[] = [
 
 const projects = [
   {
+    name: "Checkflix App",
+    description:
+      "Clean Architecture, Domain-Driven Design, CQRS implementation of Checkflix",
+    tags: [
+      {
+        name: ".NET Core",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Rest API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "EF Core",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "SQL Server",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "IdentityServer",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Daisy UI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Hangfire",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: checkflixApp,
+    source_code_link: "https://github.com/WiluGIT/CheckflixApp",
+  },
+  {
     name: "Wilczek DEV portfolio",
     description:
       "SPA developer portfolio.",
@@ -264,28 +310,7 @@ const projects = [
     ],
     image: checkflix,
     source_code_link: "https://github.com/WiluGIT/Checkflix",
-  },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: "",
-  //   source_code_link: "https://github.com/",
-  // },
+  }
 ];
 
 const socialIcons = [
